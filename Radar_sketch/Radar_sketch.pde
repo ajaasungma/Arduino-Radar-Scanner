@@ -14,7 +14,7 @@ int  index2=0;
 PFont orcFont;
 void setup() {
   
- size (800, 500); // ***CHANGE  THIS TO YOUR SCREEN RESOLUTION***
+ size (800, 500); //  SCREEN RESOLUTION
  smooth();
  myPort = new Serial(this,"COM5",  9600); // starts the serial communication
  myPort.bufferUntil('.'); // reads  the data from the serial port up to the character '.'. So actually it reads this:  angle,distance.
